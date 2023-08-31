@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="./assets/css/style.css" type="text/css" media="all" />
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+<body>
+
+	<main>
+		
+		<div class="newsletter">
+			
+			<div class="newsletter__thumb">
+				<img src="./assets/images/illustration-sign-up-mobile.svg" alt="newsletter's illustration" class="img-mobile" />
+				<img src="./assets/images/illustration-sign-up-desktop.svg" alt="newsletter's illustration" class="img-desktop" />
+			</div> <!-- newsletter__thumb -->
+			
+			<div class="newsletter__content">
+				<div class="content__text">
+					<h1>Stay updated!</h1>
+					<p>Join 60,000+ product managers receiving monthly updates on:</p>
+					<div class="newsletter__check">
+						<img src="./assets/images/icon-list.svg" alt="check list icon" />
+						<p>Product discovery and building what matters</p>
+					</div> <!-- newsletter__check -->
+					<div class="newsletter__check">
+						<img src="./assets/images/icon-list.svg" alt="check list icon" />
+						<p>Measuring to ensure updates are a success</p>
+					</div> <!-- newsletter__check -->
+					<div class="newsletter__check">
+						<img src="./assets/images/icon-list.svg" alt="check list icon" />
+						<p>And much more!</p>
+					</div> <!-- newsletter__check -->
+				</div> <!-- content__text -->
+				
+				<div class="newsletter__input">
+					<span id="error"></span>
+					<label for="email">Email address</label>
+					<input type="email" id="email" placeholder="email@company.com" required/>
+					<a href="#">Subscribe to monthly newsletter</a>
+				</div> <!-- newsletter__input -->
+				
+			</div> <!-- newsletter__content -->
+			
+		</div> <!-- newsletter -->
+		
+		<div class="success hidden">
+			
+			<div class="success__content">
+				<img src="./assets/images/icon-success.svg" alt="sucess's icon" />
+				<h1>Thanks for subscribing!</h1>
+				<p> A confirmation email has been sent to <span id="email-confirm">ash@loremcompany.com</span>.
+	  Please open it and click the button inside to confirm your subscription.</p>
+			</div> <!-- success__content -->
+			
+				<div class="success__link">
+					<a href="#">Dismiss message</a>
+				</div> <!-- sucess__link -->
+			
+			</div> <!-- success -->
+	</main>
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p> 
+   <p> Coded by <a href="https://github.io/alissonbatalha">Alisson Batalha</a>.</p>
+  </footer>
+  
+  <script src="./js/script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
